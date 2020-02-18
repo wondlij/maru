@@ -4,7 +4,7 @@ class TAMS extends React.Component {
     return (
       <div className="App">
         <header className="App-header">
-          TAMS is loading....
+          TAMS is in progress....
           <p>
             
           </p>

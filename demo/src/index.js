@@ -10,7 +10,8 @@ import * as serviceWorker from './serviceWorker';
 
 const routing = (
     <Router>
-        <Link className="nav-bar" to="/">Home</Link> <Link className="nav-bar" to="/dashboard">Dashboard</Link> 
+      {/*<Link className="nav-bar" to="/">Home</Link>*/}
+         <Link className="nav-bar" to="/dashboard">Dashboard</Link> 
         <Link to="/tams" className="nav-bar">TAMS</Link>
       <div>
         <Route exact path="/" component={App} />

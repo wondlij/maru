@@ -4,10 +4,10 @@ class Dashboard extends React.Component {
     return (
       <div className="App">
         <header className="App-header">
-          Showing dashboard to {this.props.name}
           <p>
-            
-          </p>
+            Dashboard is in Progress...
+            </p>
+          
         </header>
       </div>
     );
