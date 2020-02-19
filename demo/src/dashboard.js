@@ -1,16 +1,18 @@
 import React from 'react'
+import Hello from './hello'
 class Dashboard extends React.Component {
   render() {
     return (
       <div className="App">
         <header className="App-header">
-          <p>
-            Dashboard is in Progress...
-            </p>
-          
+          Dashboard is in progress....
+        <br/>
+            
+            <Hello name="Maru"/>
+        
         </header>
       </div>
     );
   }
 }
-export default Dashboard
+export default Dashboard;

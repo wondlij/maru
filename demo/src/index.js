@@ -3,17 +3,19 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import Dashboard from './dashboard';
+import hello from './hello';
 import TAMS from './tams';
+
 import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
 
 import * as serviceWorker from './serviceWorker';
 
 const routing = (
     <Router>
-      {/*<Link className="nav-bar" to="/">Home</Link>*/}
          <Link className="nav-bar" to="/dashboard">Dashboard</Link> 
         <Link to="/tams" className="nav-bar">TAMS</Link>
       <div>
+      <Route exact path="/" component={hello} />
         <Route exact path="/" component={App} />
         <Route path="/dashboard" component={Dashboard} />
         <Route path="/tams" component={TAMS} />
