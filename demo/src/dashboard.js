@@ -6,9 +6,9 @@ class Dashboard extends React.Component {
       <div className="App">
         <header className="App-header">
           Dashboard is in progress....
-        <br/>
+        
             
-            <Hello name="Maru"/>
+            <Hello name="Maru"></Hello>
         
         </header>
       </div>
